@@ -4,6 +4,7 @@ import mysql.connector as sql
 from datetime import datetime
 import re
 
+
 logging.basicConfig(
     filename="app.log",
     level=logging.INFO,
